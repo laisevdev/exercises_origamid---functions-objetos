@@ -100,6 +100,19 @@ var carro = {
   // Crie um objeto de um cachorro que represente um labrador,
   // preto com 10 anos, que late ao ver um homem
   
+  var cachorro = {
+    nome: 'Ether', 
+    idade: 10,
+    cor: 'preto',
+    raça: 'labrador',
+    latir (pessoa) {
+        if (pessoa === 'homem') {
+            return 'Latir';
+        } else {
+            return 'nada';
+        }
+    }
+  };
   
 
 
